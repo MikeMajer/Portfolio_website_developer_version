@@ -1,0 +1,164 @@
+:root {
+    --animTime: .8s;
+}
+
+.burger {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 55px;
+    height: 35px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.burger span {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 6px;
+    border-radius: 28%;
+    transition: .2s linear;
+}
+
+.burger span:nth-child(1) {
+    left: 0;
+    top: 0;
+}
+
+.burger.active span:nth-child(1) {
+    animation: slide_top var(--animTime) linear forwards;
+}
+
+.burger.close span:nth-child(1) {
+    animation: slide_top_rv var(--animTime) linear reverse;
+}
+
+.burger span:nth-child(2) {
+    top: calc(50% - 3px);
+    left: 0;
+    transition: .5s linear;
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger span:nth-child(3) {
+    left: 0;
+    bottom: 0;
+}
+
+.burger.active span:nth-child(3) {
+    animation: slide_bottom var(--animTime) linear forwards;
+}
+
+.burger.close span:nth-child(3) {
+    animation: slide_bottom_rv var(--animTime) linear reverse;
+}
+
+@keyframes slide_top {
+    O% {
+        left: -60px;
+    }
+
+    50% {
+        top: 0;
+        left: -60px;
+        transform-origin: 0% 50%;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        top: -60px;
+        left: -60px;
+        transform-origin: 0% 50%;
+        transform: rotate(33deg);
+    }
+
+    100% {
+        top: 0px;
+        left: 5px;
+        transform-origin: 0% 50%;
+        transform: rotate(33deg);
+    }
+}
+
+@keyframes slide_bottom {
+    O% {
+        left: 60px;
+    }
+
+    50% {
+        bottom: 0;
+        left: 60px;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        bottom: 40px;
+        left: 60px;
+        transform-origin: 0% 50%;
+        transform: rotate(-33deg);
+    }
+
+    100% {
+        bottom: 0px;
+        left: 5px;
+        transform-origin: 0% 50%;
+        transform: rotate(-33deg);
+    }
+}
+
+@keyframes slide_top_rv {
+    O% {
+        left: -60px;
+    }
+
+    50% {
+        top: 0;
+        left: -60px;
+        transform-origin: 0% 50%;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        top: -60px;
+        left: -60px;
+        transform-origin: 0% 50%;
+        transform: rotate(33deg);
+    }
+
+    100% {
+        top: 0px;
+        left: 5px;
+        transform-origin: 0% 50%;
+        transform: rotate(33deg);
+    }
+}
+
+@keyframes slide_bottom_rv {
+    O% {
+        left: 60px;
+    }
+
+    50% {
+        bottom: 0;
+        left: 60px;
+        transform: rotate(0deg);
+    }
+
+    75% {
+        bottom: 40px;
+        left: 60px;
+        transform-origin: 0% 50%;
+        transform: rotate(-33deg);
+    }
+
+    100% {
+        bottom: 0px;
+        left: 5px;
+        transform-origin: 0% 50%;
+        transform: rotate(-33deg);
+    }
+}

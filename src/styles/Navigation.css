@@ -1,5 +1,7 @@
+/* burger animation */
+
 :root {
-    --animTime: 1.4s;
+    --animTime: .5s;
 }
 
 .burger {
@@ -15,7 +17,7 @@
 
 .burger span {
     position: absolute;
-    background-color: cadetblue;
+    background-color: darkred;
     width: 100%;
     height: 6px;
     border-radius: 28%;
@@ -23,7 +25,7 @@
 }
 
 .burger:hover span {
-    background-color: gray;
+    background-color: red;
 }
 
 .burger span:nth-child(1) {
@@ -171,14 +173,16 @@
 
 /* Menu CONTENT  */
 
+/* Sliding pages */
+
 aside {
-position: absolute;
+position: fixed;
 top:0;
 left:-100%;
 height: 100%;
 width:100%;
-background-color: #aaa;
-transition: 1s ease-in-out ;
+background-color: #000;
+transition: .8s cubic-bezier(.97,.19,.03,.94);
 }
 
 #one.on {
@@ -189,16 +193,81 @@ background-color: red;
 #two.on{
 left: 0;
 background-color: orange;
-transition-delay: .2s;
+transition-delay: .3s;
 } 
 
 #tree.on {
 left:0;
 background-color: #aaa;
-transition-delay: .4s;
+transition-delay: .6s;
 }
 #four.on {
 left:0;
 background-color: black;
-transition-delay: .6s;
+transition-delay: .9s;
 }
+
+/* Menu text */
+
+nav ul {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type:none;
+    background-color: black;
+}
+
+nav ul li {
+    position: relative;
+}
+
+div.cover{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 220px;
+    background: url("../images/brush-stroke-banner-5.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    clip-path: inset(0px 220px 0px 0px);
+    padding: 40px 70px;
+    transition: .5s;
+}
+
+a:hover + .cover {
+    
+    clip-path:inset(0px 0px 0px 0px);
+}
+
+
+nav ul li a {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    text-decoration: none;
+    font-family:'Rock Salt', cursive;
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0px 5px;
+    transition: .5s ;
+    z-index: 1;
+    
+}
+
+nav a:hover, nav a.active{
+    color: black;
+    font-size: 18px;
+}
+
+nav ul li a.active+.cover {
+    clip-path:inset(0px 0px 0px 0px);
+}
+

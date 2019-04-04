@@ -1,0 +1,17 @@
+div.home{
+    height: 100%;
+    background: url("../images/lion.jpg");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(30%);
+    font-family:'Rock Salt', cursive;
+}
+
+.home span{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    color: white;
+}
+

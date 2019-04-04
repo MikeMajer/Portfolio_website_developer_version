@@ -4,6 +4,7 @@ div.footerWrapper {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px -5px 20px white;
 }
 
 div.social i{

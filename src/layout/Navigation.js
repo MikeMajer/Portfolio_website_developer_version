@@ -11,7 +11,6 @@ class Navigation extends React.Component {
     };
 
     handleClick = () => {
-
         if (this.state.click === 1) {
             this.setState({
                 value: "burger active",
@@ -36,10 +35,9 @@ class Navigation extends React.Component {
             { name: "contact", path: "/contact" },
         ]
 
-
         const menu = list.map(item => (
             <li key={item.name}>
-                <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
+                <NavLink onClick={this.handleClick} to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
                 <div className="cover"></div>
             </li>
         ))
@@ -57,7 +55,6 @@ class Navigation extends React.Component {
                 <aside id="four" className={this.state.aside}>
                     <nav>
                         <ul>
-
                             {menu}
                         </ul>
                     </nav>

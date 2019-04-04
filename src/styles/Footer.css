@@ -1,0 +1,24 @@
+div.footerWrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.social i{
+  color:black;
+  font-size: 3.2vh;
+  padding: 0px 20px ;
+  cursor: pointer;
+}
+
+div.social i:hover {
+  color:#888;
+
+}
+
+div.copyRight{
+  margin-top: 8px;
+  font-size: 2.5vh;
+}

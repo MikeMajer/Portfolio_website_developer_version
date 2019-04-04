@@ -1,8 +1,10 @@
 
 
 main.pages{
+    background-color: #666;
     height: 90vh;
 }
 footer{
+    background-color: #444;
     height: 10vh;
 }

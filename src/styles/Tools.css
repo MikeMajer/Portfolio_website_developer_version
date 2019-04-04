@@ -1,0 +1,35 @@
+
+div.title{
+    position: absolute;
+    top:10%;
+    left:50%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+div.icons{
+    position:absolute;
+    display: flex;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 100%;
+}
+
+div.icons span{
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 5vh;
+  color: black;
+}
+
+div.icons i {
+display: block;
+text-align: center;
+font-size: 10vh;
+}

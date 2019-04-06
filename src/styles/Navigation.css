@@ -65,8 +65,8 @@
 }
 
 @keyframes slide_top {
-    O% {
-        left: -60px;
+    0% {
+        left: 0px;
     }
 
     50% {
@@ -92,8 +92,8 @@
 }
 
 @keyframes slide_bottom {
-    O% {
-        left: 60px;
+    0% {
+        left: 0px;
     }
 
     50% {
@@ -118,8 +118,8 @@
 }
 
 @keyframes slide_top_rv {
-    O% {
-        left: -60px;
+    0% {
+        left: 0px;
     }
 
     50% {
@@ -145,8 +145,8 @@
 }
 
 @keyframes slide_bottom_rv {
-    O% {
-        left: 60px;
+    0% {
+        left: 0px;
     }
 
     50% {

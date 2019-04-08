@@ -1,7 +1,7 @@
 /* burger animation */
 
 :root {
-    --animTime: .5s;
+    --animTime: 1.5s;
 }
 
 .burger {
@@ -230,7 +230,7 @@ div.cover{
     left:50%;
     transform: translate(-50%,-50%);
     width: 220px;
-    background: url("../images/brush-stroke-banner-5.svg");
+    background: url("../images/brush-stroke-banner.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;

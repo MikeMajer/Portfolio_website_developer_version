@@ -17,6 +17,7 @@
     width:70vw;
     min-height: 300px;
     line-height: 1.5;
+box-shadow: 0 0 15px black;
 }
 
 
@@ -24,7 +25,13 @@
     display: block;
     margin: 20px auto;
     border: 2px solid black;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: #fff;
     cursor: pointer;
+    transition: .3s;
+}
+
+.contact button:hover{
+background-color: black;
+color: white;
 }

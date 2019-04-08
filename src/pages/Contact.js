@@ -34,7 +34,7 @@ class Contact extends React.Component {
         return (
             <div className="contact">
                 <form onSubmit={this.handleSubmit}>
-                    <h1>Contact me here...</h1>
+                    <h1>Contact me here ...</h1>
                     <textarea
                         value={this.state.value}
                         on onChange={this.handleChange}

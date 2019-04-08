@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/MikeMajer/Portfolio_website_developer_version.git/static/js/runtime~main.3c3daa39.js"
   },
   {
-    "revision": "3affca877aaab8df187a",
-    "url": "/MikeMajer/Portfolio_website_developer_version.git/static/js/main.c372a65f.chunk.js"
+    "revision": "e0493dd8b366582ddb1e",
+    "url": "/MikeMajer/Portfolio_website_developer_version.git/static/js/main.4e1dd739.chunk.js"
   },
   {
-    "revision": "12202dd3c0322ace0d06",
-    "url": "/MikeMajer/Portfolio_website_developer_version.git/static/js/2.d1b0cb80.chunk.js"
+    "revision": "ddb936c40dca80cf3ba1",
+    "url": "/MikeMajer/Portfolio_website_developer_version.git/static/js/2.67725ee8.chunk.js"
   },
   {
-    "revision": "3affca877aaab8df187a",
-    "url": "/MikeMajer/Portfolio_website_developer_version.git/static/css/main.dbb09705.chunk.css"
+    "revision": "e0493dd8b366582ddb1e",
+    "url": "/MikeMajer/Portfolio_website_developer_version.git/static/css/main.a9ca5c4b.chunk.css"
   },
   {
-    "revision": "643d6b84e4ef242e9472e2bfaa562efd",
+    "revision": "b77cfe9355331c81c621b91cafe18a47",
     "url": "/MikeMajer/Portfolio_website_developer_version.git/index.html"
   }
 ];

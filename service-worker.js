@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MikeMajer/Portfolio_website_developer_version.git/precache-manifest.db2c32ed9975df9393cb782d985774ce.js"
+  "/Portfolio_website_developer_version/precache-manifest.b3c1f2722792eab08b38eb479e58d675.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/MikeMajer/Portfolio_website_developer_version.git/index.html", {
+workbox.routing.registerNavigationRoute("/Portfolio_website_developer_version/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

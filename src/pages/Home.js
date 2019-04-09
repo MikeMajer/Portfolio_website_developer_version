@@ -5,7 +5,10 @@ import "../styles/Home.css";
 const Home = () => {
     return (
         <>
-            <div className="home"><span>Portfolio<h1>Mike Majer</h1></span></div >
+            <div className="home">
+                <div className="brush"></div>
+                <span>Portfolio<h1>Michal Majer</h1></span>
+            </div >
         </>
     );
 }

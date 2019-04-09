@@ -6,7 +6,9 @@ div.title{
     width: 100%;
     transform: translateX(-50%);
     text-align: center;
-}
+    animation: title 1.5s linear;
+    font-size: 2.5vh;
+  }
 
 div.icons{
     position:absolute;
@@ -19,17 +21,38 @@ div.icons{
     flex-wrap: wrap;
     height: 30vh;
     width: 100%;
+    overflow: hidden;
+  }
+  
+  div.icons span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 5vh;
+    color: black;
+  }
+  
+  div.icons i {
+    display: block;
+    text-align: center;
+    font-size: 10vh;
+    animation: rotate 5s linear infinite alternate ;
 }
 
-div.icons span{
-  font-family: arial,sans-serif;
-  font-weight: bold;
-  font-size: 5vh;
-  color: black;
+
+@keyframes rotate{
+  0%{
+    transform: perspective(100px) rotateY(-30deg);
+  }
+  100%{
+    transform: perspective(100px) rotateY(30deg);
+  }
 }
 
-div.icons i {
-display: block;
-text-align: center;
-font-size: 10vh;
+@keyframes title{
+  0%{
+    transform:translateX(-50%) scale(0);
+  }
+  100%{
+    transform:translateX(-50%) scale(1);
+  }
 }

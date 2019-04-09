@@ -4,7 +4,7 @@ import img from "../images/img.png";
 
 class About extends React.Component {
     state = {
-        txt: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet sint tempore temporibus deserunt ipsum laudantium enim vero atque fugit quasi maiores sit nesciunt itaque provident doloremque, deleniti, facilis ex ipsa.",
+        txt: "My name is Michal Majer and I am  programming enthusiastic, I am very keen on front-end, moreover, I am exploring the secrets of back-end either. I love new technologies, creative and challenging projects as well as problem-solving. I am looking forward to improving efficiency in a forward thinking company, by applying my skills and engagement as a junior Front-end developer.",
         indexText: -30,
         text: "",
     }
@@ -45,7 +45,7 @@ class About extends React.Component {
             <>
                 <div className="about">
                     <div className="text" ><h1>Here is a little about me ...</h1>{this.state.text}</div>
-                    <img src={img} alt="" />
+                    <img src={img} alt="portfolio picture" />
                 </div>
             </>
         );

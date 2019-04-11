@@ -1,10 +1,10 @@
 import React from 'react';
 import "../styles/About.css";
-import img from "../images/img.png";
+import aboutImg from "../images/img.png";
 
 class About extends React.Component {
     state = {
-        txt: "My name is Michal Majer and I am  programming enthusiastic, I am very keen on front-end, moreover, I am exploring the secrets of back-end either. I love new technologies, creative and challenging projects as well as problem-solving. I am looking forward to improving efficiency in a forward thinking company, by applying my skills and engagement as a junior Front-end developer.",
+        txt: "My name is Michal Majer and I am  programming enthusiastic. I am very keen on front-end. Moreover, I am exploring the secrets of back-end either. I love new technologies, creative and challenging projects as well as problem-solving. I am looking forward to improving efficiency in a forward thinking company by applying my skills and engagement as a junior Front-end developer.",
         indexText: -30,
         text: "",
     }
@@ -45,7 +45,7 @@ class About extends React.Component {
             <>
                 <div className="about">
                     <div className="text" ><h1>Here is a little about me ...</h1>{this.state.text}</div>
-                    <img src={img} alt="portfolio picture" />
+                    <img src={aboutImg} alt="portret" />
                 </div>
             </>
         );

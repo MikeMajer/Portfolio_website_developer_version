@@ -25,7 +25,7 @@ div.icons{
   }
   
   div.icons span{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Special Elite', sans-serif;
     font-weight: bold;
     font-size: 5vh;
     color: black;
@@ -34,6 +34,7 @@ div.icons{
   div.icons i {
     display: block;
     text-align: center;
+    margin-bottom: 15px;
     font-size: 10vh;
     animation: rotate 5s linear infinite alternate ;
 }
@@ -56,3 +57,4 @@ div.icons{
     transform:translateX(-50%) scale(1);
   }
 }
+

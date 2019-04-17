@@ -1,31 +1,54 @@
+.resume h1{
+  padding: 1.5vh 0 ;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.resume h1 span {
+  margin-left: 8px;
+}
+
 .slider{
-width: 55vw;
+width: 65vw;
 height: 70vh;
 position: absolute;
 top:50%;
 left:50%;
 transform: translate(-50%, -50%);
 box-shadow: 0 0 2px 10px white, 0 0 45px black;
+background-color:#aaa;
+font-family: 'Special Elite', sans-serif;
+text-align: justify;
+text-justify: inter-word;
+overflow: hidden;
 }
 
-.slider img{
+.slider .backImg{
+  height: 100%;
   width:100%;
-  filter: blur(8px);
+  filter: blur(2px);
   opacity: 0.5;
+  background-position: center;
+  background-size: cover;
 }
 
 .slider h2{
   position: absolute;
-  top:10%;
+  top:7%;
   left:50%;
   transform: translateX(-50%);
+  font-size: 2vw;
+  letter-spacing: 5px;
 }
 
 .slider p {
   position: absolute;
-  top:30%;
+  top:20%;
   left:50%;
   transform: translateX(-50%);
+  font-size: 1.5vw;
+  line-height:1.8;
+  width:80%;
 }
 
 .slider button{
@@ -40,26 +63,26 @@ box-shadow: 0 0 2px 10px white, 0 0 45px black;
 
 .slider button i {
     color: white;
-    font-size: 20px;
+    font-size: 35px;
     transition: .2s linear;
-}
-
-.slider button i:hover{
-  color: red;
-  font-size: 23px;
+  }
+  
+  .slider button i:hover{
+    color: red;
+    font-size: 38px;
 }
 
 .slider button:nth-of-type(1){
-    left:0%;
+    left:1%;
 
 } 
 .slider button:nth-of-type(2){
-    right:0%;
+    right:1%;
 } 
 
 .slider .dots {
   position: absolute;
-  bottom:10%;
+  bottom:5%;
   left: 50%;
   transform: translateX(-50%);
 }

@@ -39,7 +39,8 @@ class Contact extends React.Component {
                         value={this.state.value}
                         on onChange={this.handleChange}
                         placeholder="Type message..."
-                    ></textarea>
+                    >
+                    </textarea>
                     <button>Send</button>
                 </form>
                 <Prompt

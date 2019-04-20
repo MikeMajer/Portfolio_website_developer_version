@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/PLC.983fa967.jpg"
   },
   {
-    "revision": "5ec700fe292c9c8a85cd",
-    "url": "/Portfolio_website_developer_version/static/css/main.70dec4e4.chunk.css"
+    "revision": "33fb5b6a303de6c65b0a",
+    "url": "/Portfolio_website_developer_version/static/css/main.faeff8f2.chunk.css"
   },
   {
     "revision": "25e8b58c3f4e89216574",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/Vision.6a053c4e.jpg"
   },
   {
-    "revision": "5ec700fe292c9c8a85cd",
-    "url": "/Portfolio_website_developer_version/static/js/main.aa8e757b.chunk.js"
+    "revision": "33fb5b6a303de6c65b0a",
+    "url": "/Portfolio_website_developer_version/static/js/main.f4378dcd.chunk.js"
   },
   {
     "revision": "8258f24f69773e7fb03c5890f354521a",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/img1.df0c4faf.jpg"
   },
   {
-    "revision": "6d322325dda0a0ec0cb0b126ec4739de",
+    "revision": "e51af203ce066c9986eb8e0cdd833935",
     "url": "/Portfolio_website_developer_version/index.html"
   }
 ];

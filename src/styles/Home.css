@@ -1,7 +1,7 @@
 div.home{
     height: 100%;
     background: url("../images/lion.jpg");
-    background-position: 0% 50%;
+    background-position: left 30%;
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(30%);
@@ -10,24 +10,24 @@ div.home{
 
 .home span{
     position: absolute;
-    bottom: 12%;
+    bottom: 11%;
     left:5%;
     color: white;
-    font-size: 3vh;
+    font-size: 28px;
     animation: text 1s linear ;
 }
 
 div.home h1{
     margin-top: 15px;
-    font-size: 6vh;
+    font-size: 55px;
 }
 
 div.brush{
     position: absolute;
-    bottom: 8%;
+    bottom: 7%;
     left: 1.5%;
     height: 25%;
-    width: 40%;
+    width: 750px;
     background: url("../images/brush-stroke-banner.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,3 +69,218 @@ transform: scale(0);
     transform: scale(1);
 }
 }
+
+
+/*------------------------ Media Queries--------------------------- */
+
+@media (max-width:1600px){
+
+    .home span{
+        font-size: 25px;
+    }
+    
+    div.home h1{
+        margin-top: 15px;
+        font-size: 50px;
+    }
+    
+    div.brush{
+        bottom: 6%;
+        left: 1%;
+        width: 680px;
+    }
+}
+
+
+@media (max-width:1350px){
+
+    .home span{
+        font-size: 22px;
+    }
+    
+    div.home h1{
+        margin-top: 15px;
+        font-size: 45px;
+    }
+    
+    div.brush{
+        bottom: 6%;
+        left: 0%;
+        width: 600px;
+    }
+}
+
+
+@media (orientation:landscape) and (max-width:846px){
+
+    
+
+    .home span{
+        bottom: 7%;
+        left: 4%;
+        font-size: 17px;
+    }
+    
+    div.home h1{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    div.brush{
+        bottom: 5%;
+        left: -1%;
+        width: 380px;
+    }
+}
+
+
+@media (max-width:670px){
+
+    .home span{
+        left: 5%;
+        font-size: 15px;
+    }
+    
+    div.home h1{
+        font-size: 25px;
+    }
+    
+    div.brush{
+        bottom: 4%;
+        width: 330px;
+    }
+}
+
+
+@media (max-width:480px){
+
+    .home span{
+        font-size: 10px;
+    }
+    
+    div.home h1{
+        font-size: 20px;
+    }
+    
+    div.brush{
+        bottom: 3%;
+        width: 260px;
+    }
+}
+
+
+@media (orientation:portrait) and (max-width:1024px){
+
+    div.home{
+        background-position: 20% 30%;
+    }
+
+    
+    div.brush{
+        bottom: 3%;
+    }
+}
+
+
+@media (orientation:portrait) and (max-width:768px){
+    
+    div.home h1{
+        margin-top: 10px;
+    }
+
+    div.brush{
+        bottom: -1%;
+        width: 450px;
+    }
+}
+
+
+@media (orientation:portrait) and (max-width:414px) {
+
+    div.home{
+        background-position: 39% 30%;
+    }
+
+    .home span{
+        bottom: 3%;
+        left: 7%;
+        font-size: 20px;
+    }
+    
+    div.home h1{
+        font-size: 25px;
+    }
+    
+    div.brush{
+        bottom: -5.2%;
+        left: -3%;
+        width: 330px;
+    }
+}
+
+
+@media (max-width:414px) and (max-height:736px){
+    div.home{
+        background-position: 35% 30%;
+    }
+
+    div.brush{
+        bottom: -4.5%;
+    }
+}
+
+
+@media (orientation:portrait) and (max-width:375px){
+    
+
+    div.brush{
+        bottom: -5%;
+        left: -4%;
+    }
+}
+
+
+@media (max-width:375px) and (max-height:667px){
+    
+
+    div.brush{
+        bottom: -4%;
+    }
+}
+
+
+@media (orientation:portrait) and (max-width:360px){
+    
+    div.home{
+        background-position: 35% 30%;
+    }
+
+    div.brush{
+        bottom: -4%;
+        width: 320px;
+    }
+}
+
+
+@media (orientation:portrait) and (max-width:320px){
+    
+    div.home{
+        background-position: 28% 30%;
+    }
+
+    .home span{
+        bottom: 5%;
+        font-size: 15px;
+    }
+    
+    div.home h1{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    div.brush{
+        bottom: -2%;
+        width:260px;
+    }
+}
+

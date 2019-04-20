@@ -14,3 +14,17 @@ footer{
     background-color: #333;
     height: 10vh;
 }
+
+
+/*------------------------ Media Queries--------------------------- */
+
+
+@media(orientation: landscape) and (max-width: 846px){
+    main.pages{
+        height: 85vh;
+    }
+    footer{
+        height: 15vh;
+    }
+}
+

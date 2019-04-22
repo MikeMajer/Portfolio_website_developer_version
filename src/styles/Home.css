@@ -189,8 +189,8 @@ transform: scale(0);
     }
 
     div.brush{
-        bottom: -1%;
-        width: 450px;
+        bottom: 5%;
+        width: 560px;
     }
 }
 

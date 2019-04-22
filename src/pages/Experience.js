@@ -22,7 +22,7 @@ class Experience extends React.Component {
 
   content = [
 
-    "First time I discovered programming in 2012 when I started my work in the automotive industry in international company called Dr Schneider. I occupated maintenance technician position, and one of my responsibilities was to correct, and ad new lines of code to robots move.  The language I used calls Rapid for ABB robots. However, I have some experience with robots like KUKA and MOTOMAN as well. In this time I did some robot programming training which contains basic and advances aspects of this type of programming.",
+    "First time I discovered programming in 2012 when I started my work in the automotive industry in international company called Dr Schneider. I occupated maintenance technician position, and one of my responsibilities was to correct, and ad new lines of code to robots move. The language I used calls Rapid for ABB robots. However, I have some experience with robots like KUKA and MOTOMAN as well. In this time I did some robot programming training which contains basic and advances aspects of this type of programming.",
 
     "The same profession enabled me to learn something about the visions systems like (Keyence, Balluff or Cognex), which we used to detect different parts of products. In this case, I have used simple conditional statements. It was an excellent opportunity to see how graphics and code can work together.",
 

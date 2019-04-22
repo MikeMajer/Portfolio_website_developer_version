@@ -10,6 +10,7 @@ class Contact extends React.Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
+        alert("Sorry for any inconvenience, form is under constraction at the moment. Please conatact in majer.michal@outlook.com or through my Liknedin page.")
         this.setState({
             value: "",
             isEmpty: true

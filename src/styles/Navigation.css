@@ -273,3 +273,14 @@ nav ul li a.active+.cover {
     clip-path:inset(0px 0px 0px 0px);
 }
 
+
+
+/*------------------------ Media Queries--------------------------- */
+
+@media(orientation: portrait) and (max-width:414px){
+    .burger {
+        top: 15px;
+        right: 15px;
+    }
+
+}

@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/PLC.983fa967.jpg"
   },
   {
-    "revision": "33fb5b6a303de6c65b0a",
-    "url": "/Portfolio_website_developer_version/static/css/main.faeff8f2.chunk.css"
+    "revision": "471a27728ac6c4e09b04",
+    "url": "/Portfolio_website_developer_version/static/css/main.b03d0ed9.chunk.css"
   },
   {
     "revision": "25e8b58c3f4e89216574",
     "url": "/Portfolio_website_developer_version/static/js/runtime~main.fb979cce.js"
   },
   {
-    "revision": "b090c30d130b2aa6f6aa",
-    "url": "/Portfolio_website_developer_version/static/js/2.ca2939dc.chunk.js"
+    "revision": "8df0293804843dfe3811",
+    "url": "/Portfolio_website_developer_version/static/js/2.a94781ee.chunk.js"
   },
   {
     "revision": "3dd28b53f02db095b2ce50bc733f1ae4",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/Vision.6a053c4e.jpg"
   },
   {
-    "revision": "33fb5b6a303de6c65b0a",
-    "url": "/Portfolio_website_developer_version/static/js/main.f4378dcd.chunk.js"
+    "revision": "471a27728ac6c4e09b04",
+    "url": "/Portfolio_website_developer_version/static/js/main.1a2ee812.chunk.js"
   },
   {
     "revision": "8258f24f69773e7fb03c5890f354521a",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/img1.df0c4faf.jpg"
   },
   {
-    "revision": "e51af203ce066c9986eb8e0cdd833935",
+    "revision": "bb1ac027d5b64313e5be69a2c3415161",
     "url": "/Portfolio_website_developer_version/index.html"
   }
 ];

@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/PLC.983fa967.jpg"
   },
   {
-    "revision": "471a27728ac6c4e09b04",
-    "url": "/Portfolio_website_developer_version/static/css/main.b03d0ed9.chunk.css"
+    "revision": "b99e57cf25065f51dcd6",
+    "url": "/Portfolio_website_developer_version/static/css/main.88040882.chunk.css"
   },
   {
     "revision": "25e8b58c3f4e89216574",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/Vision.6a053c4e.jpg"
   },
   {
-    "revision": "471a27728ac6c4e09b04",
+    "revision": "b99e57cf25065f51dcd6",
     "url": "/Portfolio_website_developer_version/static/js/main.1a2ee812.chunk.js"
   },
   {
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/Portfolio_website_developer_version/static/media/img1.df0c4faf.jpg"
   },
   {
-    "revision": "bb1ac027d5b64313e5be69a2c3415161",
+    "revision": "056a7bbc6ba1c11362d9d829fd41d3cd",
     "url": "/Portfolio_website_developer_version/index.html"
   }
 ];

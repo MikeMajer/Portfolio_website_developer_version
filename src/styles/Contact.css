@@ -29,7 +29,6 @@ div.contact input{
   box-shadow: 0 2px 12px black;
 }
 
-
 div.contact textarea{
   width:100%;
   min-height: 35vh;
@@ -62,6 +61,7 @@ div.contact button:hover{
 
 /*------------------------ Media Queries--------------------------- */
 
+
 @media(max-width: 1366px){
 
   div.contact{
@@ -92,6 +92,7 @@ div.contact button:hover{
     width: 9vw;
   }
 }
+
 
 @media(orientation:landscape) and (max-width: 846px){
 

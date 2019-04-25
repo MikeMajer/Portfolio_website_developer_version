@@ -7,18 +7,16 @@ import sliderImg3 from "../images/CNC2.jpg";
 import sliderImg4 from "../images/meeting.jpg";
 import sliderImg5 from "../images/Team.jpg";
 
+
 class Experience extends React.Component {
 
   state = {
-    index: 0,
-
+    index: 0
   }
 
   images = [sliderImg, sliderImg1, sliderImg2, sliderImg3, sliderImg4, sliderImg5];
 
-
   title = ["Robots", "Vision systems", "PLC", "CNC", "Soft skills", "Front-End Developing"];
-
 
   content = [
 
@@ -43,10 +41,9 @@ class Experience extends React.Component {
   indexInterval = "";
 
 
-  componentWillMount() {
+  componentDidMount() {
     this.indexInterval = setInterval(this.autoSlide, this.sliderTime);
   }
-
 
   autoSlide = () => {
 
@@ -54,18 +51,16 @@ class Experience extends React.Component {
 
     this.setState({
       index: index + 1,
-    })
-
+    });
     if (index === this.title.length - 1) {
       this.setState({
         index: 0,
-      })
+      });
     }
   }
 
 
   handleClick = (e) => {
-
 
     const { index } = this.state;
     const { title } = this;
@@ -73,26 +68,24 @@ class Experience extends React.Component {
     if (e.target.id === "right") {
       this.setState({
         index: index + 1,
-      })
+      });
       if (index === title.length - 1) {
         this.setState({
           index: 0,
-        })
+        });
       }
     }
-
     if (e.target.id === "left") {
       if (index <= 0) {
         this.setState({
           index: title.length - 1,
-        })
+        });
       } else {
         this.setState({
           index: index - 1,
-        })
+        });
       }
     }
-
     clearInterval(this.indexInterval);
     this.indexInterval = setInterval(this.autoSlide, this.sliderTime);
   }
@@ -126,6 +119,5 @@ class Experience extends React.Component {
     );
   }
 }
-
 
 export default Experience;

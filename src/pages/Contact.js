@@ -1,6 +1,6 @@
 import React from 'react';
-import "../styles/Contact.css";
 import { Prompt } from 'react-router-dom';
+import "../styles/Contact.css";
 
 class Contact extends React.Component {
 
@@ -12,27 +12,24 @@ class Contact extends React.Component {
   }
 
   handleSubmit = (e) => {
-
-    e.preventDefault()
-    alert("Sorry for any inconvenience, the form is under construction at the moment. Please contact me on majer.michal@outlook.com or through my LinkedIn profile page.")
+    e.preventDefault();
+    alert("Sorry for any inconvenience, the form is under construction at the moment. Please contact me on majer.michal@outlook.com or through my LinkedIn profile page.");
     this.setState({
       value: "",
       name: "",
       email: "",
       subject: ""
-    })
-
+    });
   }
 
   handleChange = (e) => {
-
     const name = e.target.name;
     const value = e.target.value;
     this.setState({
       [name]: value
-    })
-
+    });
   }
+
 
   render() {
     return (
@@ -80,4 +77,5 @@ class Contact extends React.Component {
     );
   }
 }
+
 export default Contact;

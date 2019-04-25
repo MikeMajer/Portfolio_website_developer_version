@@ -34,23 +34,23 @@ div.copyRight{
 
 @media(orientation: landscape) and (max-width: 846px){
 
-div.social i{
-  font-size: 6vh;
-  }
+  div.social i{
+    font-size: 6vh;
+    }
 
-div.copyRight{
-  font-size: 4vh;
-}
+  div.copyRight{
+    font-size: 4vh;
+  }
 }
 
 
 @media(orientation: landscape) and (max-width: 600px){
 
-div.social i{
-  font-size: 5.4vh;
-  }
+  div.social i{
+    font-size: 5.4vh;
+    }
 
-div.copyRight{
-  font-size: 2.9vh;
-}
+  div.copyRight{
+    font-size: 2.9vh;
+  }
 }

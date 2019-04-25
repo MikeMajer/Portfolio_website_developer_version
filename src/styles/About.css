@@ -39,9 +39,7 @@ div.text h1{
 }
 
 
-
 /*------------------------ Media Queries--------------------------- */
-
 
 
 @media(max-width: 1800px){
@@ -125,7 +123,7 @@ div.text h1{
   div.about{
     flex-direction: column;
     justify-content: space-between;
-    }
+  }
       
   div.text{
     height: 60%;
@@ -133,42 +131,42 @@ div.text h1{
     font-size: 2vh;
     transform: perspective(400px) rotateX(8deg);
     padding: 30px 25px;
-    }
+  }
       
   div.text h1{
     font-size: 2.5vh;
     margin-bottom: 30px;
-    }
+  }
       
   .about img{
     height:50%;
     width: 60%;
-    }
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:600px){
 
-div.about{
-  flex-direction: column;
-  justify-content: space-between;
+  div.about{
+    flex-direction: column;
+    justify-content: space-between;
   }
-    
-div.text{
-  height: 60%;
-  width: 85%;
-  font-size: 1.75vh;
-  transform: perspective(400px) rotateX(8deg);
-  padding: 30px 25px;
+      
+  div.text{
+    height: 60%;
+    width: 85%;
+    font-size: 1.75vh;
+    transform: perspective(400px) rotateX(8deg);
+    padding: 30px 25px;
   }
-    
-div.text h1{
-  font-size: 2vh;
-  margin-bottom: 25px;
+      
+  div.text h1{
+    font-size: 2vh;
+    margin-bottom: 25px;
   }
-    
-.about img{
-  height:40%;
-  width: 60%;
+      
+  .about img{
+    height:40%;
+    width: 60%;
   }
 }

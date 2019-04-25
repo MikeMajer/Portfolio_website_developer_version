@@ -9,19 +9,18 @@ import ErrorPage from '../pages/ErrorPage';
 
 
 const Pages = () => {
-    return (
-        <>
-            <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/tools" component={Tools} />
-                <Route path="/experience" component={Experience} />
-                <Route path="/contact" component={Contact} />
-                <Route component={ErrorPage} />
-            </Switch>
-        </>
-
-    );
+  return (
+    <>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/tools" component={Tools} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/contact" component={Contact} />
+        <Route component={ErrorPage} />
+      </Switch>
+    </>
+  );
 }
 
 export default Pages;

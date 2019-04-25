@@ -1,306 +1,308 @@
 div.home{
-    height: 100%;
-    background: url("../images/lion.jpg");
-    background-position: left 30%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(30%);
-    font-family:'Rock Salt', cursive;
+  height: 100%;
+  background: url("../images/lion.jpg");
+  background-position: left 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(30%);
+  font-family:'Rock Salt', cursive;
 }
 
 .home span{
-    position: absolute;
-    bottom: 11%;
-    left:5%;
-    color: white;
-    font-size: 28px;
-    animation: text 1s linear ;
+  position: absolute;
+  bottom: 11%;
+  left:5%;
+  color: white;
+  font-size: 28px;
+  animation: text 1s linear ;
 }
 
 div.home h1{
-    margin-top: 15px;
-    font-size: 55px;
+  margin-top: 15px;
+  font-size: 55px;
 }
 
 div.brush{
-    position: absolute;
-    bottom: 7%;
-    left: 1.5%;
-    height: 25%;
-    width: 750px;
-    background: url("../images/brush-stroke-banner.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    animation: brush 2s linear ;
-    transform: perspective(700px) rotateY(20deg);
+  position: absolute;
+  bottom: 7%;
+  left: 1.5%;
+  height: 25%;
+  width: 750px;
+  background: url("../images/brush-stroke-banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  animation: brush 2s linear ;
+  transform: perspective(700px) rotateY(20deg);
 }
 
 @keyframes brush{
-    0%{
-        clip-path: inset(0px 750px 0px 0px);
-        opacity:0;
-    }
-    25%{
-        clip-path: inset(0px 750px 0px 0px);
-        opacity:0;
-    }
-    50%{
-        clip-path: inset(0px 750px 0px 0px);
-        opacity:0;
-    }
 
-    75%{
+  0%{
+    clip-path: inset(0px 750px 0px 0px);
+    opacity:0;
+  }
+
+  25%{
+    clip-path: inset(0px 750px 0px 0px);
+    opacity:0;
+  }
+
+  50%{
+    clip-path: inset(0px 750px 0px 0px);
+    opacity:0;
+  }
+
+  75%{
     clip-path: inset(0px 0px 0px 0px);
     opacity: 1;
-    }
+  }
 
-    100%{
-        clip-path: inset(0px 0px 0px 0px);
-        opacity: 1;
-    }
+  100%{
+    clip-path: inset(0px 0px 0px 0px);
+    opacity: 1;
+  }
 }
 
 @keyframes text{
-0%{
-transform: scale(0);
-}
-100%{
+
+  0%{
+    transform: scale(0);
+  }
+
+  100%{
     transform: scale(1);
-}
+  }
 }
 
 
 /*------------------------ Media Queries--------------------------- */
 
+
 @media (max-width:1600px){
 
-    .home span{
-        font-size: 25px;
-    }
-    
-    div.home h1{
-        margin-top: 15px;
-        font-size: 50px;
-    }
-    
-    div.brush{
-        bottom: 6%;
-        left: 1%;
-        width: 680px;
-    }
+  .home span{
+    font-size: 25px;
+  }
+  
+  div.home h1{
+    margin-top: 15px;
+    font-size: 50px;
+  }
+  
+  div.brush{
+    bottom: 6%;
+    left: 1%;
+    width: 680px;
+  }
 }
 
 
 @media (max-width:1366px){
     
-    .home span{
-        font-size: 22px;
-    }
-    
-    div.home h1{
-        margin-top: 15px;
-        font-size: 45px;
-    }
-    
-    div.brush{
-        bottom: 6%;
-        left: 0%;
-        width: 600px;
-        height: 29%;
-    }
+  .home span{
+    font-size: 22px;
+  }
+  
+  div.home h1{
+    margin-top: 15px;
+    font-size: 45px;
+  }
+  
+  div.brush{
+    bottom: 6%;
+    left: 0%;
+    width: 600px;
+    height: 29%;
+  }
 }
 
 @media (max-width:1024px){
 
-    .home span{
-        font-size: 22px;
-    }
-    
-    div.home h1{
-        margin-top: 15px;
-        font-size: 45px;
-    }
-    
-    div.brush{
-        bottom: 6%;
-        left: 0%;
-        width: 600px;
-        height: 25%;
-    }
+  .home span{
+    font-size: 22px;
+  }
+  
+  div.home h1{
+    margin-top: 15px;
+    font-size: 45px;
+  }
+  
+  div.brush{
+    bottom: 6%;
+    left: 0%;
+    width: 600px;
+    height: 25%;
+  }
 }
 
 
 @media (orientation:landscape) and (max-width:846px){
 
-    
-
-    .home span{
-        bottom: 7%;
-        left: 4%;
-        font-size: 17px;
-    }
-    
-    div.home h1{
-        margin-top: 10px;
-        font-size: 30px;
-    }
-    
-    div.brush{
-        bottom: 5%;
-        left: -1%;
-        width: 380px;
-    }
+  .home span{
+    bottom: 7%;
+    left: 4%;
+    font-size: 17px;
+  }
+  
+  div.home h1{
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  div.brush{
+    bottom: 5%;
+    left: -1%;
+    width: 380px;
+  }
 }
 
 
 @media (max-width:670px){
 
-    .home span{
-        left: 5%;
-        font-size: 15px;
-    }
-    
-    div.home h1{
-        font-size: 25px;
-    }
-    
-    div.brush{
-        bottom: 4%;
-        width: 330px;
-    }
+  .home span{
+    left: 5%;
+    font-size: 15px;
+  }
+  
+  div.home h1{
+    font-size: 25px;
+  }
+  
+  div.brush{
+    bottom: 4%;
+    width: 330px;
+  }
 }
 
 
 @media (max-width:480px){
 
-    .home span{
-        font-size: 10px;
-    }
-    
-    div.home h1{
-        font-size: 20px;
-    }
-    
-    div.brush{
-        bottom: 3%;
-        width: 260px;
-    }
+  .home span{
+    font-size: 10px;
+  }
+  
+  div.home h1{
+    font-size: 20px;
+  }
+  
+  div.brush{
+    bottom: 3%;
+    width: 260px;
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:1024px){
 
-    div.home{
-        background-position: 20% 30%;
-    }
+  div.home{
+    background-position: 20% 30%;
+  }
 
-    
-    div.brush{
-        bottom: 3%;
-    }
+  div.brush{
+    bottom: 3%;
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:768px){
     
-    div.home h1{
-        margin-top: 10px;
-    }
+  div.home h1{
+    margin-top: 10px;
+  }
 
-    div.brush{
-        bottom: 5%;
-        width: 560px;
-    }
+  div.brush{
+    bottom: 5%;
+    width: 560px;
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:414px) {
 
-    div.home{
-        background-position: 39% 30%;
-    }
+  div.home{
+    background-position: 39% 30%;
+  }
 
-    .home span{
-        bottom: 3%;
-        left: 7%;
-        font-size: 20px;
-    }
-    
-    div.home h1{
-        font-size: 25px;
-    }
-    
-    div.brush{
-        bottom: -5.2%;
-        left: -3%;
-        width: 330px;
-    }
+  .home span{
+    bottom: 3%;
+    left: 7%;
+    font-size: 20px;
+  }
+  
+  div.home h1{
+    font-size: 25px;
+  }
+  
+  div.brush{
+    bottom: -5.2%;
+    left: -3%;
+    width: 330px;
+  }
 }
 
 
 @media (max-width:414px) and (max-height:736px){
-    div.home{
-        background-position: 35% 30%;
-    }
 
-    div.brush{
-        bottom: -4.5%;
-    }
+  div.home{
+    background-position: 35% 30%;
+  }
+
+  div.brush{
+    bottom: -4.5%;
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:375px){
     
-
-    div.brush{
-        bottom: -5%;
-        left: -4%;
-    }
+  div.brush{
+    bottom: -5%;
+    left: -4%;
+  }
 }
 
 
 @media (max-width:375px) and (max-height:667px){
-    
-
-    div.brush{
-        bottom: -4%;
-    }
+  
+  div.brush{
+    bottom: -4%;
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:360px){
     
-    div.home{
-        background-position: 35% 30%;
-    }
+  div.home{
+    background-position: 35% 30%;
+  }
 
-    div.brush{
-        bottom: -4%;
-        width: 320px;
-    }
+  div.brush{
+    bottom: -4%;
+    width: 320px;
+  }
 }
 
 
 @media (orientation:portrait) and (max-width:320px){
     
-    div.home{
-        background-position: 28% 30%;
-    }
+  div.home{
+    background-position: 28% 30%;
+  }
 
-    .home span{
-        bottom: 5%;
-        font-size: 15px;
-    }
-    
-    div.home h1{
-        margin-top: 5px;
-        font-size: 20px;
-    }
+  .home span{
+    bottom: 5%;
+    font-size: 15px;
+  }
+  
+  div.home h1{
+    margin-top: 5px;
+    font-size: 20px;
+  }
 
-    div.brush{
-        bottom: -2%;
-        width:260px;
-    }
+  div.brush{
+    bottom: -2%;
+    width:260px;
+  }
 }
 

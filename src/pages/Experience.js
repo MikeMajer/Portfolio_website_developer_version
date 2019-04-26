@@ -30,7 +30,7 @@ class Experience extends React.Component {
 
     "All of my occupations was highly focused on problem-solving, work with time pressure as well as a team-work. I gained a lot of essential skills which can be very useful in a programming environment.",
 
-    "Finally, in October 2018, I came across my first Front-end developing course, and I decide to engage myself full time on it. From this point, I went through a bunch of courses about programming topic include: HTML / HTML Canvas, CSS (SASS/LESS), JavaScript, Jquery, React.js, Node.js, Git & GitHub. Right Now I am focused on grinding my programming skills and working on my projects, which you can check on my GitHub and Code Pen pages."
+    "Finally, in October 2018, I came across my first Front-end developing course, and I decide to engage myself full time on it. From this point, I went through a bunch of courses about programming topic include: HTML / HTML Canvas, CSS (SASS/LESS), Flex-Box, CSS Grid, JavaScript, Jquery, React.js, Node.js, Git & GitHub. Right Now I am focused on grinding my programming skills and working on my projects, which you can check on my GitHub and Code Pen pages."
 
   ];
 

@@ -6,7 +6,7 @@ import aboutImg from "../images/img.png";
 class About extends React.Component {
 
   state = {
-    textTemplate: "My name is Michal Majer and I am  programming enthusiastic. I am very keen on front-end. Moreover, I am exploring the secrets of back-end either. I love new technologies, creative and challenging projects as well as problem-solving. I am looking forward to improving efficiency in a forward thinking company by applying my skills and engagement as a junior Front-end developer.",
+    textTemplate: "I am self-taught programming enthusiast, very keen on learning the most significant and latest technologies no matter it is a frontend or backend. I enjoy creating stylish, modern and responsive applications with sleek UX/UI connection. A versatile, self-motivated and conscientious individual with industrial automation programming background and passion for continuous improvement. ",
     indexText: -30,
     text: ""
   }

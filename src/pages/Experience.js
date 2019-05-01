@@ -41,10 +41,6 @@ class Experience extends React.Component {
   indexInterval = "";
 
 
-  componentDidMount() {
-    this.indexInterval = setInterval(this.autoSlide, this.sliderTime);
-  }
-
   autoSlide = () => {
 
     const { index } = this.state;
@@ -90,6 +86,13 @@ class Experience extends React.Component {
     this.indexInterval = setInterval(this.autoSlide, this.sliderTime);
   }
 
+  componentDidMount() {
+    this.indexInterval = setInterval(this.autoSlide, this.sliderTime);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.indexTyping);
+  }
 
 
   render() {

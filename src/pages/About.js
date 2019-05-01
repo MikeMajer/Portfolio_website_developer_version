@@ -23,13 +23,18 @@ class About extends React.Component {
       indexText: this.state.indexText + 1
     });
     if (this.state.indexText === this.state.textTemplate.length) {
-      clearInterval(this.indexTyping)
+      clearInterval(this.indexTyping);
     }
   }
 
   componentDidMount() {
     this.indexTyping = setInterval(() => this.typingEffect(), 50);
   }
+
+  componentWillUnmount() {
+    clearInterval(this.indexTyping);
+  }
+
 
   render() {
     return (

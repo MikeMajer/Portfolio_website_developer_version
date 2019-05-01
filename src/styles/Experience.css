@@ -19,8 +19,8 @@ header.slider{
   background-color:#aaa;
   font-family: 'Special Elite', sans-serif;
   text-align: justify;
-  text-justify: inter-character;
-  word-wrap: break-all;
+  text-justify: inter-word;
+  word-wrap: break-word;
   word-spacing: 3px;
   overflow: hidden;
 }
@@ -354,7 +354,7 @@ header.slider .dots span.activeDot{
   header.slider p {
     top:16%;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.0;
   }
      
   header.slider .dots span{
@@ -375,7 +375,7 @@ header.slider .dots span.activeDot{
   }
   
   header.slider p {
-    top:14%;
+    top:15%;
     font-size: 14px;
   }
       

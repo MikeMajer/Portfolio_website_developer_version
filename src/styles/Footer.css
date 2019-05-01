@@ -35,11 +35,11 @@ div.copyRight{
 @media(orientation: landscape) and (max-width: 846px){
 
   div.social i{
-    font-size: 6vh;
+    font-size: 5.8vh;
     }
 
   div.copyRight{
-    font-size: 4vh;
+    font-size: 3.7vh;
   }
 }
 
